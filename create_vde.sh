@@ -5,5 +5,5 @@ ifconfig vde0 10.40.0.1 netmask 255.255.0.0
 
 
 
-ip addr add 2001:db8:0:1::1000/64 dev vde0
-dhcpd -6 -cf ./dhcpd6.conf
+sudo ip addr add 2001:db8:0:1::1000/64 dev vde0
+sudo dhcpd -6 -cf ./dhcpd6.conf
