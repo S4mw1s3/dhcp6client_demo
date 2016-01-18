@@ -1,0 +1,12 @@
+This is a simple demo application to test the picotcp dhcpv6 client implementation.
+
+Run create_vde.sh to setup your environment (configure VDE interface, set ipv6
+address to VDE interface and bind DHCPv6 server).
+
+Once this is done, make sure that picotcp is set to the correct path in the Makefile.
+
+To compile and execute:
+
+$ make
+$ ./app
+$ ping6 2001:db8:0:1::xxxx
